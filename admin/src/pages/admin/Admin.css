@@ -1,0 +1,43 @@
+.Admin{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.buttons .delete{
+    background: red;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons .upd{
+    background: yellow;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.buttons .add{
+    background: green;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}

@@ -3,11 +3,36 @@
     flex-direction: column;
 }
 
-.person{
+.Admin .container{
     display: flex;
-    flex-direction: column;
-    color: white;
-    margin: 5px;
+    flex-direction: row;
+    background: #fff;
+    width: 1000px;
+    height: 240px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.Admin .container .img-employe img{
+    display: flex;
+    justify-self: start;
+    height: 200px;
+    padding: 15px;
+}
+
+.Admin .container .name{
+    padding: 15px;
+}
+
+.Admin .container .name span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.Admin .container .name p{
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .buttons{
@@ -17,6 +42,7 @@
     height: 50px;
     gap: 5px;
     cursor: pointer;
+    align-self: center;
 }
 
 .buttons .delete{

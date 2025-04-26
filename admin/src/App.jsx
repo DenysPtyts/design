@@ -22,7 +22,7 @@ export function App(){
 
     return(
         <div className='Main'>
-            <input type='text' placeholder='Login'  value={inputValue} onChange={handleInputChange} onKeyDown={handleKeyDown} />
+            <input type='text' placeholder='Login' className='login' value={inputValue} onChange={handleInputChange} onKeyDown={handleKeyDown} />
             <button onClick={handleLogin} disabled={inputValue.trim() === ''}>Login</button>
         </div>
     )

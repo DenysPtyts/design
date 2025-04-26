@@ -6,11 +6,16 @@
 .Main input{
     background: white;
     border-radius: 15px;
+    border: 1px solid black;
     width: 155px;
     height: 30px;
     outline: none;
     padding: 3px;
     border: 0;
+}
+
+.Main .login{
+    border: 1px solid gray;
 }
 
 .Main button{

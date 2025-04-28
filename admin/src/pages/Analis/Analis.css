@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-back{
+    width: 65px;
+    height: 30px;
+    border-radius: 14px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.analis {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.analis-employe{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.analis input{
+    width: 150px;
+    height: 25px;
+    border-radius: 14px;
+    border: 1px solid green;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.analis-employe .analis-cart{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 170px;
+    border-radius: 18px;
+    background-color: aqua;
+    padding: 7px;
+}
+
+.analis-employe .analis-cart img{
+    width: 50px;
+    height: 50px;
+}
+
+.analis-employe .analis-cart .data h3,
+.analis-employe .analis-cart .data p{
+    margin: 5px;
+}

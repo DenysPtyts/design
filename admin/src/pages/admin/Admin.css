@@ -51,6 +51,8 @@
     border: 0;
     border-radius: 5px;
     color: white;
+    width: 70px;
+    height: 50px;
 }
 
 .buttons .upd{
@@ -58,6 +60,8 @@
     cursor: pointer;
     border: 0;
     border-radius: 5px;
+    width: 70px;
+    height: 50px;
 }
 
 .buttons .add{
@@ -66,4 +70,20 @@
     border: 0;
     border-radius: 5px;
     color: white;
+    width: 70px;
+    height: 50px;
+}
+
+.buttons .analis{
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+}
+
+.Admin .buttons a{
+    text-decoration: none;
 }

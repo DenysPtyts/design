@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import AvaAdmin from '../../images/admin.png'
 import './Admin.css'
 
@@ -14,9 +15,18 @@ export function Admin(){
                 </div>
             </div>
             <div className="buttons">
-                <button className='delete'>Delete Worker</button>
-                <button className='upd'>Update Worker</button>
-                <button className='add'>Add Worker</button>
+                <Link to='/admin'>
+                    <button className='delete'>Delete Worker</button>
+                </Link>
+                <Link to='/admin'>
+                    <button className='upd'>Update Worker</button>
+                </Link>
+                <Link to='/admin'>
+                    <button className='add'>Add Worker</button>
+                </Link>
+                <Link to='/analis'>
+                    <button className='analis'>Analis</button>
+                </Link>
             </div>
         </div>
     )

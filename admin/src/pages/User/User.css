@@ -1,0 +1,100 @@
+.user{
+    display: flex;
+    flex-direction: column;
+}
+
+.user .container{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 1000px;
+    height: 240px;
+    border-radius: 18px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.user .container .img-employe img{
+    display: flex;
+    justify-self: start;
+    height: 200px;
+    padding: 15px;
+}
+
+.user .container .name{
+    padding: 15px;
+}
+
+.user .container .name span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.user .container .name p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.buttons .delete{
+    background: red;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+    height: 50px;
+}
+
+.buttons .upd{
+    background: yellow;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+}
+
+.buttons .add{
+    background: green;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+    height: 50px;
+}
+
+.buttons .analis{
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    width: 70px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+}
+
+.user .buttons a{
+    text-decoration: none;
+}
+
+.user .btn-back{
+    width: 65px;
+    height: 30px;
+    border-radius: 14px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}

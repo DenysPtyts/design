@@ -1,0 +1,44 @@
+.worker{
+    display: flex;
+    justify-content: center;
+}
+
+.worker .btn-back{
+    width: 65px;
+    height: 30px;
+    border-radius: 14px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.worker .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.worker .container input{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    width: 155px;
+    height: 30px;
+    outline: none;
+    padding: 3px;
+    border: 0;
+    margin: 5px;
+}
+
+.worker .container .btn-add{
+    border-radius: 15px;
+    border: 0;
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    background: green;
+    color: #000;
+    color: white;
+}

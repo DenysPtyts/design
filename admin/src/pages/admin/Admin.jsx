@@ -5,6 +5,9 @@ import './Admin.css'
 export function Admin(){
     return(
         <div className="Admin">
+            <Link to='/'>
+            <button className='btn-back'>Back</button>
+            </Link>
             <div className="container">
                 <div className="img-employe">
                     <img src={AvaAdmin} alt='' />
@@ -21,7 +24,7 @@ export function Admin(){
                 <Link to='/admin'>
                     <button className='upd'>Update Worker</button>
                 </Link>
-                <Link to='/admin'>
+                <Link to='/addworker'>
                     <button className='add'>Add Worker</button>
                 </Link>
                 <Link to='/analis'>
